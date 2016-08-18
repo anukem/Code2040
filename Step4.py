@@ -22,7 +22,7 @@ for i in range(0, len(words)):
 		answer.append(str(words[i]))
 
 
-
+#Send it back 
 sentData = {
 	
 	"token": "7fa0189d76ec2f2e1107a119c6c2f614",

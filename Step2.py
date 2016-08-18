@@ -22,3 +22,5 @@ newData = {
 }
 #Send it back
 newApiRequest = requests.post("http://challenge.code2040.org/api/reverse/validate", newData)
+
+print newApiRequest.text
